@@ -1,6 +1,6 @@
 package dp;
 
-import dp.linear.single.maxarraysum.DP918_prod;
+import dp.linear.single.maxsubarray.DP918_prod;
 
 public class DP918_test {
     public static void main(String[] args) {

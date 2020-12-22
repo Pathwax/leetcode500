@@ -1,4 +1,4 @@
-package dp.linear.single.maxarraysum;
+package dp.linear.single.maxsubarray;
 
 public class DP152_prod {
     public int maxProduct(int[] nums) {

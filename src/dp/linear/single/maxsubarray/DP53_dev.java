@@ -1,4 +1,4 @@
-package dp.linear.single.maxarraysum;
+package dp.linear.single.maxsubarray;
 
 public class DP53_dev {
     public int maxSubArray(int[] nums) {

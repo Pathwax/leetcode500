@@ -1,6 +1,4 @@
-package dp.linear.single.maxarraysum;
-
-import java.util.Arrays;
+package dp.linear.single.maxsubarray;
 
 public class DP918_prod {
     public int maxSubarraySumCircular(int[] A){
