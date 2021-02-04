@@ -3,7 +3,6 @@ package dp.knapsack.conbination;
 import java.util.*;
 
 /**
- *
  * 去重剪枝发生在：同一层数值相同的结点第 2、3 ... 个结点，因为数值相同的第 1 个结点已经搜索出了包含了这个数值的全部结果
  */
 public class DP40_prod {

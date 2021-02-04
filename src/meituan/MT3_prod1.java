@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // 滑动窗口
-public class MT3_prod {
+public class MT3_prod1 {
     public int lengthOfLongestSubstring(String s){
         if (s.length()==0) return 0;
         Map<Character,Integer> map = new HashMap<>();
