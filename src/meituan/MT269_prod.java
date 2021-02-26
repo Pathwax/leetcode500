@@ -17,7 +17,8 @@ public class MT269_prod {
         // 1. 构建图
         Map<Character, Set<Character>> map = new HashMap<>();
         for (int i = 0; i < words.length - 1; i++) {
-            for (int j = 0; j < words[i].length() && j <words[i+1].length(); j++) {
+            int j = 0;
+            for (; j < words[i].length() && j <words[i+1].length(); j++) {
                 // 如果字符串相同，比较下一个
                 if (words[i].charAt(j) == words[i+1].charAt(j)) continue;
                 // 保存第一个不同的字符顺序
@@ -26,6 +27,7 @@ public class MT269_prod {
                 map.put(words[i].charAt(j),set);
                 break;
             }
+            if (j==words[i + 1].length() && j < words[i].length()) return "";
         }
         // 2. 拓扑排序
         // 创建保存入度的数组
